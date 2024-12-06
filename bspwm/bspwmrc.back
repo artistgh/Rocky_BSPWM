@@ -1,7 +1,0 @@
-#! /bin/bash
-
-#AUTOSTART
-sxhkd &
-xsetroot -cursor_name left_ptr &
-
-bspc monitor -d
