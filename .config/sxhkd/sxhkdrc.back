@@ -1,0 +1,16 @@
+super+{_,shift+}Return
+	{kitty, bspc node -s biggest.local}
+super+shift+{q,r}
+	bspc {quit,wm -r}
+
+# close and kill
+super + {_,shift + }q
+	bspc node -{c,k}
+
+# start Browser
+super +{_,shift+}z
+	{~/.local/share/AppImage/ZenBrowser.AppImage, firefox}
+
+# launch apps
+super +{_,shift+}b
+	{~/.Applications/Blender/blender-4.2.0-linux-x64/blender-launcher, 'blender'}
